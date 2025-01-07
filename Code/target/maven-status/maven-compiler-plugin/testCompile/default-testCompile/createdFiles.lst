@@ -1,5 +1,6 @@
 UserAuthenticatorTest.class
 MainTest.class
 MenuResidentTest.class
-AccountControllerTest.class
+RequeteTravailControllerTest.class
 MenuIntervenantTest.class
+AccountControllerTest.class

@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: MainTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s -- in MainTest
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
+MainTest.testLogin_FailedAuthentication()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.Scanner.nextLine()" because "this.mockScanner" is null
+	at MainTest.testLogin_FailedAuthentication(MainTest.java:49)
+
+MainTest.testAfficherAccueil_UserQuits()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.Scanner.nextLine()" because "this.mockScanner" is null
+	at MainTest.testAfficherAccueil_UserQuits(MainTest.java:68)
+

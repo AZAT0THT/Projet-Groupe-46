@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: RequeteTravailControllerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s -- in RequeteTravailControllerTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE!
+RequeteTravailControllerTest.testAjouterRequete()  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.List.add(Object)" because "Controller.RequeteTravailController.requetesTravail" is null
+	at Controller.RequeteTravailController.ajouterRequete(RequeteTravailController.java:65)
+	at RequeteTravailControllerTest.testAjouterRequete(RequeteTravailControllerTest.java:47)
+
+RequeteTravailControllerTest.testAjouterPlusieursRequetes()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.List.add(Object)" because "Controller.RequeteTravailController.requetesTravail" is null
+	at Controller.RequeteTravailController.ajouterRequete(RequeteTravailController.java:65)
+	at RequeteTravailControllerTest.testAjouterPlusieursRequetes(RequeteTravailControllerTest.java:62)
+
+RequeteTravailControllerTest.testFiltrerRequetesParType()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.List.add(Object)" because "Controller.RequeteTravailController.requetesTravail" is null
+	at Controller.RequeteTravailController.ajouterRequete(RequeteTravailController.java:65)
+	at RequeteTravailControllerTest.testFiltrerRequetesParType(RequeteTravailControllerTest.java:77)
+

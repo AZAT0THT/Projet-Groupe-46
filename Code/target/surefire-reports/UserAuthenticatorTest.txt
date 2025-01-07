@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: UserAuthenticatorTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s -- in UserAuthenticatorTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE!
+UserAuthenticatorTest.testLogin_SuccessfulIntervenant()  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Model.UserAuthenticator.setPath(String)" because "this.userAuthenticator" is null
+	at UserAuthenticatorTest.testLogin_SuccessfulIntervenant(UserAuthenticatorTest.java:90)
+
+UserAuthenticatorTest.testLogin_Failed()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Model.UserAuthenticator.setPath(String)" because "this.userAuthenticator" is null
+	at UserAuthenticatorTest.testLogin_Failed(UserAuthenticatorTest.java:135)
+
+UserAuthenticatorTest.testLogin_SuccessfulResident()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Model.UserAuthenticator.setPath(String)" because "this.userAuthenticator" is null
+	at UserAuthenticatorTest.testLogin_SuccessfulResident(UserAuthenticatorTest.java:51)
+
